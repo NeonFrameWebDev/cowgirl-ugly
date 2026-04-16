@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cowgirl Ugly — Saloon &amp; Boutique · Tubac, AZ</title>
+  <meta name="description" content="Cowgirl Ugly is Tubac's favorite saloon & boutique — $5 drafts, free popcorn, Cadillac Margaritas, Friday karaoke, and a dog who thinks he owns the place. In Plaza de Anza, 40 minutes south of Tucson.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=IBM+Plex+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=Rye&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="site-nav" id="siteNav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand">
+        <img src="logo-hires.png" alt="Cowgirl Ugly" class="nav-logo">
+        <span>Cowgirl Ugly</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#intro">About</a></li>
+        <li><a href="#pouring">Drinks</a></li>
+        <li><a href="#friday">Karaoke</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#find-us">Find Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 1 — HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" id="heroBg">
+      <img src="patio.jpg" alt="Cowgirl Ugly interior — leather couches, teal walls, amber lights">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <img src="logo-hires.png" alt="Cowgirl Ugly — bull skull logo with barbed wire" class="hero-logo hero-anim-1">
+      <p class="hero-tagline hero-anim-2">Saloon &amp; Boutique</p>
+      <p class="hero-location hero-anim-3">Tubac, Arizona</p>
+    </div>
+    <a href="#intro" class="hero-cue hero-anim-4">
+      <span class="hero-cue-text">c'mon in ↓</span>
+    </a>
+  </section>
+
+  <!-- 2 — INTRO -->
+  <section class="intro" id="intro">
+    <div class="intro-inner">
+      <h2 class="section-heading rise">Cold drinks, warm people, and a dog who thinks he owns the place.</h2>
+      <p class="intro-body rise">
+        We're the bar behind the market in the heart of Tubac. No cover, no attitude, no dress code — just good tequila, $5 drafts, free popcorn, and a patio that's hard to leave once the sun starts going down.
+      </p>
+      <p class="intro-body rise">
+        Rhonda built this place to feel like your living room, if your living room had a pool table and a really good Cadillac Margarita.
+      </p>
+      <div class="intro-photo rise">
+        <img src="entrance.jpg" alt="Glass door with Cowgirl Ugly Tubac AZ painted on it" loading="lazy">
+        <p class="intro-caption">30 Avenida Goya · Plaza de Anza</p>
+      </div>
+    </div>
+    <div class="copper-line"></div>
+  </section>
+
+  <!-- 3 — WHAT'S POURING -->
+  <section class="pouring" id="pouring">
+    <div class="pouring-inner">
+      <h2 class="section-heading centered rise">What's Pouring</h2>
+
+      <!-- The big deal -->
+      <div class="deal-banner rise">
+        <span class="deal-price">2 for $5</span>
+        <span class="deal-what">Draft Beers</span>
+        <span class="deal-note">Barrio Blond &amp; rotating taps · yes, in Tubac</span>
+      </div>
+
+      <div class="menu-columns rise">
+        <!-- Left column: cocktails -->
+        <div class="menu-col">
+          <h3 class="menu-category">Tequila &amp; Cocktails</h3>
+
+          <div class="menu-item menu-item--star">
+            <span class="item-name">Cadillac Margarita</span>
+            <span class="item-leader"></span>
+            <span class="item-price">$12</span>
+            <span class="item-desc">Patrón + Grand Marnier. The one everyone talks about.</span>
+            <span class="item-badge">★ fan favorite</span>
+          </div>
+
+          <div class="menu-item">
+            <span class="item-name">House Margarita</span>
+            <span class="item-leader"></span>
+            <span class="item-price">$8</span>
+            <span class="item-desc">Frozen or rocks. The classic.</span>
+          </div>
+
+          <div class="menu-item">
+            <span class="item-name">Premium Margarita</span>
+            <span class="item-leader"></span>
+            <span class="item-price">$10</span>
+            <span class="item-desc">Step up the tequila.</span>
+          </div>
+
+          <div class="menu-item">
+            <span class="item-name">Bloody Mary</span>
+            <span class="item-leader"></span>
+            <span class="item-price">$9</span>
+            <span class="item-desc">Morning medicine. The best in town.</span>
+          </div>
+
+          <div class="menu-item">
+            <span class="item-name">Well Drinks</span>
+            <span class="item-leader"></span>
+            <span class="item-price">$6</span>
+            <span class="item-desc">Vodka, rum, gin, whiskey — you know the drill.</span>
+          </div>
+
+          <div class="menu-item">
+            <span class="item-name">Tequila Shots</span>
+            <span class="item-leader"></span>
+            <span class="item-price">$5+</span>
+            <span class="item-desc">Several brands. Ask what's on the shelf.</span>
+          </div>
+        </div>
+
+        <!-- Right column: beer + extras -->
+        <div class="menu-col">
+          <h3 class="menu-category">Beer</h3>
+
+          <div class="menu-item">
+            <span class="item-name">Draft Beer <em>(2 for $5)</em></span>
+            <span class="item-leader"></span>
+            <span class="item-price">$3</span>
+            <span class="item-desc">Barrio Blond &amp; rotating taps.</span>
+          </div>
+
+          <div class="menu-item">
+            <span class="item-name">Bottles &amp; Cans</span>
+            <span class="item-leader"></span>
+            <span class="item-price">$4+</span>
+            <span class="item-desc">Rotating selection. Ask what's cold.</span>
+          </div>
+
+          <div class="menu-divider-sm"></div>
+
+          <h3 class="menu-category">Wine</h3>
+
+          <div class="menu-item">
+            <span class="item-name">House Red / White</span>
+            <span class="item-leader"></span>
+            <span class="item-price">$7</span>
+            <span class="item-desc">By the glass.</span>
+          </div>
+
+          <div class="menu-divider-sm"></div>
+
+          <h3 class="menu-category">On the House</h3>
+
+          <div class="menu-item menu-item--free">
+            <span class="item-name">🍿 Free Popcorn</span>
+            <span class="item-leader"></span>
+            <span class="item-price">$0</span>
+            <span class="item-desc">Always. No purchase necessary. But you're gonna want a drink.</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="menu-footnote rise">Prices subject to change.</p>
+    </div>
+  </section>
+
+  <!-- 4 — FRIDAY NIGHT -->
+  <section class="friday" id="friday">
+    <div class="friday-inner">
+      <h2 class="friday-heading rise">Friday Night Karaoke</h2>
+      <p class="friday-sub rise">Every Friday. No auditions. No judgment.</p>
+      <div class="friday-photo rise">
+        <img src="bar-detail.jpg" alt="Pink cocktail on polished copper bar top" loading="lazy">
+      </div>
+      <p class="friday-note rise">yes, they do 'Friends in Low Places' every week. and yes, it slaps every time.</p>
+    </div>
+  </section>
+
+  <!-- 5 — MEET THE PACK -->
+  <section class="pack" id="pack">
+    <div class="pack-inner">
+      <h2 class="section-heading centered rise">Meet the Pack</h2>
+
+      <div class="pack-grid">
+        <div class="pack-card rise">
+          <div class="pack-avatar pack-avatar--copper">
+            <span class="pack-initial">R</span>
+          </div>
+          <h3 class="pack-name">Rhonda</h3>
+          <p class="pack-role">Owner</p>
+          <p class="pack-bio">Put her heart into making this place a great reflection of the "new west." She wanted a bar that felt like home — she built exactly that.</p>
+        </div>
+
+        <div class="pack-card rise">
+          <div class="pack-avatar pack-avatar--terracotta">
+            <span class="pack-initial">B</span>
+          </div>
+          <h3 class="pack-name">Becca</h3>
+          <p class="pack-role">Bartender</p>
+          <p class="pack-bio">Makes everyone feel at home. Will introduce you to new music, great conversation, and probably a drink you haven't tried yet.</p>
+        </div>
+
+        <div class="pack-card rise">
+          <div class="pack-avatar pack-avatar--photo">
+            <img src="dog.jpg" alt="Ruger the French Bulldog" loading="lazy">
+          </div>
+          <h3 class="pack-name">Ruger</h3>
+          <p class="pack-role">Mascot</p>
+          <p class="pack-bio">Thinks he owns the place. Accepts belly rubs as currency.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 — WHAT PEOPLE SAY -->
+  <section class="reviews" id="reviews">
+    <div class="reviews-inner">
+      <h2 class="section-heading centered rise">What People Say</h2>
+
+      <div class="reviews-scroll rise">
+        <div class="review-card">
+          <blockquote>
+            <p>"We were driving from Patagonia to Madera Canyon and decided we needed to stop for a cold beverage. What a delightful discovery! The place is super cute, very classy!"</p>
+            <cite>cbabeej · TripAdvisor</cite>
+          </blockquote>
+        </div>
+
+        <div class="review-card">
+          <blockquote>
+            <p>"What a Hidden Gem. Found by accident driving around Tubac."</p>
+            <cite>onebigbad1 · TripAdvisor</cite>
+          </blockquote>
+        </div>
+
+        <div class="review-card">
+          <blockquote>
+            <p>"So cute and Becca the bartender is an absolute doll! Makes everyone feel at home."</p>
+            <cite>Lindsey A. · Google</cite>
+          </blockquote>
+        </div>
+
+        <div class="review-card">
+          <blockquote>
+            <p>"Perfect bar for a town so small."</p>
+            <cite>Russell T. · Google</cite>
+          </blockquote>
+        </div>
+
+        <div class="review-card">
+          <blockquote>
+            <p>"Great atmosphere and wonderful service! We love Cowgirl Ugly!"</p>
+            <cite>Becky A. · Google</cite>
+          </blockquote>
+        </div>
+
+        <div class="review-card">
+          <blockquote>
+            <p>"Great staff, great band for sure! Just an all around good time!"</p>
+            <cite>TripAdvisor reviewer</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 — FIND US + FOOTER -->
+  <section class="find-us" id="find-us">
+    <div class="find-inner">
+      <h2 class="section-heading centered rise">Find Us</h2>
+
+      <div class="find-grid">
+        <div class="find-info rise">
+          <address>
+            <p class="find-address">30 Avenida Goya<br>Tubac, AZ 85646</p>
+            <p class="find-landmark">In Plaza de Anza · Behind Tubac Market</p>
+            <p class="find-phone"><a href="tel:+15204478335">(520) 447-8335</a></p>
+          </address>
+
+          <div class="hours-table">
+            <h3 class="hours-title">Hours</h3>
+            <div class="hours-row">
+              <span class="hours-day">Mon — Thu</span>
+              <span class="hours-time">2 PM – 9 PM</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Fri — Sun</span>
+              <span class="hours-time">12 PM – 9 PM</span>
+            </div>
+          </div>
+
+          <p class="find-directions">40 min south of Tucson · Right off I-19</p>
+        </div>
+
+        <div class="find-map rise">
+          <div class="map-wrap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3409.5!2d-111.045!3d31.612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86d6851e1c4aaaab%3A0x2c29a7d1f6e4e8a!2sCowgirl+Ugly!5e0!3m2!1sen!2sus!4v1700000000000"
+              width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Cowgirl Ugly location on Google Maps"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p class="footer-farewell">See y'all soon.</p>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/cowgirl.ugly/" target="_blank" rel="noopener">Instagram</a>
+      <span class="footer-dot">&middot;</span>
+      <a href="https://www.facebook.com/tequilacowgirl" target="_blank" rel="noopener">Facebook</a>
+    </div>
+    <p class="footer-credit">Site by <a href="https://neonframewebdesign.com" target="_blank" rel="noopener">NeonFrame Web Design</a></p>
+    <p class="footer-copy">&copy; 2026 Cowgirl Ugly &middot; Tubac, AZ</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
